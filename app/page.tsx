@@ -54,8 +54,8 @@ export default function TifinaghKeyboard() {
     ]
   ];
 
-  const handleKeyPress = (char) => {
-    setText(prev => prev + char);
+  const handleKeyPress = (char: string) => {
+    setText((prev) => prev + char);
   };
 
   const handleSpace = () => {
